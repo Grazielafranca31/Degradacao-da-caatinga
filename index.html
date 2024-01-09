@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Caatinga sofre efeitos do desmatamento</title>
+    <meta name="description" content="Scrollama: Sticky Overlay Example" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet">
+  </header>
+
+  <body>
+    <main class="container-fluid">
+
+      <div id="intro">
+        <h1 class="intro__hed">100% brasileiro, Caatinga sofre efeitos do desmatamento</h1>
+        <p>
+          Bioma já teve quase metade do seu território degradado
+        </p>
+        <div class="img" style="background-image: url(imgs/mapfoto.jpg)">
+          <span>Foto: Bruno Morais/DAKI Semiárido Vivo</span>
+        </div>
+        </div>
+        
+        </div>        
+        
+      </div>
+
+      <article class="container">
+        <b><span style="color: #cd853f;">Cristian Favaro, Giseli Almeida e Graziela França</span></b>
+        <div>
+
+        </div>
+        <p>Símbolo da resistência e tipicamente brasileiro, o bioma da Caatinga vem sofrendo com as centenas de anos de degradação ambiental. Presente em oito dos nove estados do Nordeste, além do norte de Minas Gerais, a mata branca, como é a tradução do seu nome que vem do tupi-guarani, já teve cerca de 42% do seu território modificado pela ação do homem, segundo estudo realizado pelo <a href="https://brasil.mapbiomas.org/" target="_blank" class="link_map">MapBiomas</a>.</p>
+        <p>De acordo com dados coletados, de 1985 a 2022, a Caatinga perdeu em vegetação natural em torno de 6 milhões de hectares. Para se ter ideia da dimensão, é como se uma Suíça e meia tivesse sido desmatada ao longo dos últimos 37 anos.</p>    
+        <p>Entre os principais fatores que levam ao desmatamento do bioma estão a agropecuária e a agricultura. Mas outros elementos também têm levado ao desmatamento da região, como a urbanização, instalação de usinas solares e eólicas e a transposição do rio São Francisco, como explica o coordenador do MapBiomas Caatinga e professor da Universidade Estadual de Feira de Santana, Washington Rocha.</p>
+        <div id="group-1">
+          <figure>
+            <button class="btn btn-sm btn-warning" id="zoom-control">Ligar zoom</button>
+            <div id="map"></div>
+          </figure>
+          <div class="step" data-step="1">
+            <div>            
+              <p>Segundo o Ministério do Meio Ambiente, a Caatinga ocupa uma área de cerca de 862.818 km² (parte em destaque no gráfico), o equivalente a 10,1% do território nacional ou quase três Itálias.</p>
+              <p>Apesar de pouco conhecido, tem grande riqueza de ambientes e espécies, tratando-se do bioma semi-árido mais biodiverso do mundo.</p>
+            </div>
+          </div>
+          <div class="step step-left" data-step="2">
+            <div>
+              <p>Os pontos vermelhos são os registros de desmatamento. Cerca de 42% do território foi modificado pela ação do homem.</p>
+              
+            </div>
+          </div>  
+
+          <div class="step" data-step="3">
+            <div>
+              <p>
+                O desconhecimento acerca do bioma fez com que, durante décadas, ele fosse tratado como região de pouca diversidade, devido a sua sazonalidade que é própria dos períodos de estiagem, quando há a desfolhagem da vegetação nativa, que retorna após os períodos chuvosos.
+                <br>
+                <img id="biomaEx" src="imgs/bioma-caatinga.jpg">
+              </p>
+              
+              <!-- inserir mapa geo da caatinga com zoom em Parnaguá, sul do Piauí lng: -44.62368, lat: -10.20237-->
+            </div>
+          </div>  
+  
+          <div class="step" data-step="4">
+            <div>
+              <p>A Bahia tem sete dos 10 municípios com mais registros de ataques ao bioma no país entre 2019 a 2021. Já os outros três ficam no Piauí.</p>
+              <p>A região afetada jamais volta a ser a mesma, prejudicando fauna, flora, corpos d'água e comunidades remanescentes dos povos originários.</p>
+            </div>
+          </div>
+          <div class="step" data-step="5">
+            <div>
+              <p>Parnaguá, cidade localizada ao Sul do Piauí, conta com a maior soma de emissões de alertas para desmatamento (área vermelha).</p>
+            </div>
+          </div>
+        </div>
+        <p>Fatores externos também são responsáveis pela falta de conservação do bioma, como a falta de uma forte estratégia de grandes organizações ambientais; falta de reconhecimento da Caatinga como patrimônio nacional, como acontece com outros biomas, que perdura até hoje; e a falta de políticas públicas de conservação e implantação de Unidades de Conservação.</p>
+        
+        <p>Esse pensamento foi mudado graças a pesquisadores, principalmente de universidades de estados do Nordeste. Hoje, já há registro de 4.963 espécies de plantas, sendo que deste total 827 espécies (17% do total de espécies que se encontram no bioma) são conhecidos o estado de conservação e 30,1% destas encontram-se em alguma categoria de ameaça de extinção. </p>
+
+        <p>Já com relação às espécies da fauna, de um total de 1.182 espécies que foram avaliadas pelo Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio), em 2018, 125 espécies, ou 10,57% do total, estão em alguma categoria de ameaça de extinção.</p>
+        
+        <p>“O trabalho desses cientistas conseguiu mostrar as outras características e riqueza do bioma, inclusive essa questão da estiagem que provoca o desfolhamento, mas que depois volta. E mostrar a biodiversidade da Caatinga, que possui muitas espécies endêmicas. Esse cenário mudou no meio científico, mas não mudou em termos de ações de política pública e engajamento de ONGs com maior poder de atuação”, relata Rocha.</p>
+
+        <p>Ainda segundo o especialista, o desmatamento em um bioma como a caatinga é muito perigoso, principalmente diante das projeções climáticas. “Principalmente considerando o cenário de mudanças climáticas e que, segundo as projeções do Painel Intergovernamental sobre Mudanças Climáticas da Onu,  projetam um aumento de temperatura e aridização no bioma. A nossa preocupação é que o desmatamento intensifique áreas propensas à desertificação, que resulta na perda de ecossistema permanente e de produtividade, levando a mais fome, por exemplo, em regiões que já sofrem com essa situação. Outro ponto é o mosaico de unidades de conservação, que ainda tem um percentual muito baixo de caatinga inseridas neste espaço, apenas 9%, e que têm sido pressionadas devido a construções de parques eólicos nas proximidades, por exemplo. Essas unidades deveriam ser ampliadas e não reduzidas”, completa o coordenador do MapBiomas.</p>
+
+        <p>Dados do MapBiomas apontam que o desmatamento na região da Caatinga aumentou todos os anos entre 2001 e 2020 - último dado disponível. Em 2020, o desmatamento foi 73% superior ao registrado em 2001 (gráfico abaixo).</p>
+
+        <iframe aria-label="Column Chart" id="datawrapper-chart-smRxd" src="https://datawrapper.dwcdn.net/smRxd/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe>
+        <script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();</script>
+
+        <h2 class="inter">Multas ambientais ultrapassam R$19 milhões</h2>
+        
+        <p>Danos causados à Flora, Controle ambiental e outras causas estão entre os principais responsáveis pela crítica situação em que se encontra a Caatinga. Somente em 2022, as multas somaram mais de R$19 milhões, conforme divulgou, com dados obtidos via LAI, a <a href="https://fiquemsabendo.com.br/" target="_blank" class="link">Fiquem Sabendo</a>. Nos dados também faltam muitas especificações dos tipos de biomas afetados e infrações registradas.</p>
+
+        <div id="group-2">
+          
+          <div>
+            <div class="step" data-step="6">
+              <div>
+                <p>A região é diversa e conta com representação de outros biomas, como Mata Atlântica, Costeiro Marinho, Cerrado e Amazônico.</p>
+                <p>R$ 195 milhões. É o valor de multas ambientais aplicadas no Nordeste em 2022 em todos eles. Do total, 58,7% do valor não apresentou registro do bioma.</p>               
+              </div>
+            </div>
+            <div class="step" data-step="7">
+              <div>
+                <p>A Caatinga representou 9,54% de todas as multas, com R$ 19 milhões em 2022 (ou 23,11% do valor com bioma registrado).</p>
+                <p>Os estados do Ceará, Bahia e Paraíba são os que contabilizam a maior soma em valores de multas na Caatinga.</p>              
+              </div>
+            </div>
+          </div>      
+          <figure>
+            <div id='myDiv'>
+          </figure>
+        </div>      
+
+        <h2 class="inter">Além da Caatinga</h2>		
+        
+        <div id="group-3" >
+          <figure style="background-image: url(imgs/ilha_do_ferro_pao_de_acucar_jonathan_lins.jpg)">
+            <span class="img">Foto: Gabriel Carvalho/Setur-BA</span>
+          </figure>
+          <div class="step" data-step="8">
+            <div>
+              <p>Apesar de ser comum ver imagens de seca ou de um solo desértíco associadas à região Nordeste, os estados são diversos e contam com biomas que vão além da Caatinga, que só não ocorre no Maranhão. O Cerrado está presente na Bahia, Piauí e Maranhão. Enquanto a Mata Atlântica aparece em quase todo litoral nordestino, indo da Bahia até o Rio Grande do Norte. Já a Floresta Amazônia pode ser encontrada no Oeste do Maranhão. Além disso, o sistema Costeiro Marinho está presente em todo o litoral da região.</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="inter">Sobre o MapBiomas</h2>
+        <p>O MapBiomas é uma rede colaborativa formada por ONGs, universidades e empresas de tecnologia organizados por biomas e temas transversais. A organização realiza um monitoramento via imagens de satélites e a classificação é validada com redes de controle estatístico do todo o país.</p>
+
+        <p>A acurácia dos dados coletados variam de 85% a 98%. No caso da caatinga, a acurácia é de 85%, devido às condições climáticas e períodos de estiagem em que a análise fica comprometida. Nesses momentos, por conta da desfolhagem, o sensor pode identificar uma área como desmatamento, por isso é necessário fazer a nova análise após períodos de chuvas.</p>
+      </article>		
+    </main>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+    <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+    <script src="https://unpkg.com/scrollama@^3"></script>
+    <script src='https://cdn.plot.ly/plotly-2.25.2.min.js'></script>
+    <script src="treemap.js"></script>
+    <script src="map.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
